@@ -14,7 +14,7 @@ public class Application {
         System.out.println(app.countWords("Cos tam do obliczenia"));
     }
 
-    private int countWords(String words) {
+    public int countWords(String words) {
         String[] split = StringUtils.split(words, " ");
         return split == null ? 0 : split.length;
     }
